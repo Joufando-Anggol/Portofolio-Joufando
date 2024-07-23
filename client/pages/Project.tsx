@@ -21,7 +21,7 @@ export default function Project() {
                             href={bunakenDemoLink}
                             target="_blank" // Membuka link di tab baru
                             rel="noopener noreferrer" // Meningkatkan keamanan dengan mencegah serangan phishing
-                            className="px-[2rem] py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center justify-center space-x-2 hover:bg-cyan-500 transition-all duration-200 inline-block"
+                            className="px-[2rem] py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center justify-center space-x-2 hover:bg-cyan-500 transition-all duration-200 "
                         >
                             <p>Bunaken Demo</p>
                             <PlayIcon className="w-[1.6rem] h-[1.7rem]" />
@@ -37,7 +37,7 @@ export default function Project() {
                             href={mEventDemoLink}
                             target="_blank" // Membuka link di tab baru
                             rel="noopener noreferrer" // Meningkatkan keamanan dengan mencegah serangan phishing
-                            className="px-[2rem] py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center justify-center space-x-2 hover:bg-cyan-500 transition-all duration-200 inline-block"
+                            className="px-[2rem] py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center justify-center space-x-2 hover:bg-cyan-500 transition-all duration-200 "
                         >
                             <p>M-Event Demo</p>
                             <PlayIcon className="w-[1.6rem] h-[1.7rem]" />

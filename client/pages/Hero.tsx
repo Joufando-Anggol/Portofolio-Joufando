@@ -14,7 +14,7 @@ export default function Hero() {
             <div className="w-[80%] mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
                 <div>
                     <h1 className="text-[35px] md:text-[50px] text-white font-bold">
-                        HELLO, I'M <span className="text-cyan-500">JOUFANDO</span>
+                        HELLO, I&apos;M <span className="text-cyan-500">JOUFANDO</span>
                     </h1>
                     <TextEffect />
                     <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
@@ -23,7 +23,6 @@ export default function Hero() {
                         On the backend, I build robust server-side solutions using Node.js and Express.js. My experience with MongoDB and PostgreSQL ensures efficient data management and the development of scalable APIs that drive dynamic applications.
                         As a Fullstack Developer, I seamlessly integrate frontend and backend technologies, managing end-to-end development to create cohesive and efficient web solutions. My proficiency in both realms allows me to deliver comprehensive and high-performing applications.
                         In addition to my core technical skills, I am adept with version control systems like Git and have experience with deploying applications using cloud platforms and CI/CD pipelines. My collaborative spirit and dedication ensure that I excel both as an individual contributor and as part of a team.
-
                     </p>
                     <div className="mt-[2rem] flex flex-wrap gap-[1rem] sm:gap-[2rem] items-center">
                         <a
