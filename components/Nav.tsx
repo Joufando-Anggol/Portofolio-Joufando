@@ -7,12 +7,12 @@ interface Props {
     heroRef: RefObject<HTMLDivElement>;
     aboutRef: RefObject<HTMLDivElement>;
     servicesRef: RefObject<HTMLDivElement>;
-    skillsRef: RefObject<HTMLDivElement>;
     projectRef: RefObject<HTMLDivElement>;
+    projectDetailsRef: RefObject<HTMLDivElement>;
     footerRef: RefObject<HTMLDivElement>;
 }
 
-export default function Nav({ openNav, scrollToRef, heroRef, aboutRef, servicesRef, skillsRef, projectRef, footerRef }: Props) {
+export default function Nav({ openNav, scrollToRef, heroRef, aboutRef, servicesRef, projectRef, projectDetailsRef, footerRef }: Props) {
     return (
         <div className="w-full fixed z-50 top-0 h-[12vh] bg-[#141c27] shadow-md">
             <div className="flex items-center justify-between w-[80%] mx-auto h-full">
@@ -25,7 +25,6 @@ export default function Nav({ openNav, scrollToRef, heroRef, aboutRef, servicesR
                     <div className="nav-link" onClick={() => scrollToRef(heroRef)}>HOME</div>
                     <div className="nav-link" onClick={() => scrollToRef(aboutRef)}>ABOUT</div>
                     <div className="nav-link" onClick={() => scrollToRef(servicesRef)}>SERVICES</div>
-                    <div className="nav-link" onClick={() => scrollToRef(skillsRef)}>SKILLS</div>
                     <div className="nav-link" onClick={() => scrollToRef(projectRef)}>PROJECT</div>
                     <div className="nav-link" onClick={() => scrollToRef(footerRef)}>CONTACT</div>
                 </div>

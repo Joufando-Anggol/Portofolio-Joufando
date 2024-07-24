@@ -5,7 +5,6 @@ import MobileNav from "@/components/MobileNav";
 import Nav from "@/components/Nav";
 import Project from "@/pages/Project";
 import Services from "@/pages/Services";
-import Skills from "@/components/Skills";
 import ProjectDetails from "@/components/ProjectDetails";
 import Footer from "@/pages/Footer";
 import AOS from "aos";
@@ -17,8 +16,8 @@ export default function Home() {
   const heroRef = useRef<HTMLDivElement>(null);
   const aboutRef = useRef<HTMLDivElement>(null);
   const servicesRef = useRef<HTMLDivElement>(null);
-  const skillsRef = useRef<HTMLDivElement>(null);
   const projectRef = useRef<HTMLDivElement>(null);
+  const projectDetailsRef = useRef<HTMLDivElement>(null);
   const footerRef = useRef<HTMLDivElement>(null);
 
   const openNav = () => setNav(true);
@@ -50,8 +49,8 @@ export default function Home() {
         heroRef={heroRef}
         aboutRef={aboutRef}
         servicesRef={servicesRef}
-        skillsRef={skillsRef}
         projectRef={projectRef}
+        projectDetailsRef={projectDetailsRef}
         footerRef={footerRef}
       />
       <Nav
@@ -60,18 +59,17 @@ export default function Home() {
         heroRef={heroRef}
         aboutRef={aboutRef}
         servicesRef={servicesRef}
-        skillsRef={skillsRef}
         projectRef={projectRef}
+        projectDetailsRef={projectDetailsRef}
         footerRef={footerRef}
       />
+      <div ref={heroRef}><Hero /></div>
       <div className="relative z-[30]">
         <ScrollToTopButton /> {/* Add the scroll to top button here */}
-        <div ref={heroRef}><Hero /></div>
         <div ref={aboutRef}><About /></div>
         <div ref={servicesRef}><Services /></div>
-        {/* <div ref={skillsRef}><Skills /></div> */}
         <div ref={projectRef}><Project /></div>
-        <div ref={projectRef}><ProjectDetails /></div>
+        <div ref={projectDetailsRef}><ProjectDetails /></div>
         <div ref={footerRef}><Footer /></div>
       </div>
 

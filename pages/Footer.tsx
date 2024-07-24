@@ -3,12 +3,13 @@ import LinkedinIcon from "../icons/LinkedinIcon";
 import GithubIcon from "../icons/Github";
 import FacebookIcon from "../icons/Facebook";
 import InstagramIcon from "../icons/Instagram";
+import XIcon from "../icons/Twitter";
 
 export default function Footer() {
     return (
         <div className="pt-16 pb-8 bg-gray-900 text-white">
             <div className="border-b border-gray-700 pb-8 w-4/5 mx-auto">
-                <div className="flex justify-center space-x-6">
+                <div className="flex justify-center space-x-6 mb-4">
                     <a
                         href="https://www.linkedin.com/in/joufando"
                         target="_blank"
@@ -41,6 +42,18 @@ export default function Footer() {
                     >
                         <InstagramIcon width="24px" height="24px" />
                     </a>
+                    <a
+                        href="https://www.x.com/joufando/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 transition"
+                    >
+                        <XIcon width="24px" height="24px" />
+                    </a>
+                </div>
+                <div className="text-center">
+                    <h2 className="text-xl font-semibold mb-2">Get to Know Me</h2>
+                    <p className="mb-4">Connect with me on social media or drop a message!</p>
                 </div>
             </div>
             <div className="text-center mt-8">
