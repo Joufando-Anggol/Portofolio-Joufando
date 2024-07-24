@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { PlayIcon } from '@heroicons/react/24/solid'; // Mengimpor ikon dari Heroicons v2
+import { PlayIcon } from '@heroicons/react/24/solid';
 
 const bunakenDemoLink = "https://drive.google.com/file/d/1DpBCxnv0So8pTMnfjM4FxFaoB80jFMaQ/view?usp=sharing";
 const mEventDemoLink = "https://drive.google.com/file/d/1sklOg4nM-M0fry8p1PtkiZ_z990uYhsw/view?usp=sharing";
