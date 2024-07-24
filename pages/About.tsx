@@ -54,11 +54,11 @@ export default function About() {
                         alt="user"
                         layout="fill"
                         objectFit="contain"
-                        className="relative z-10 w-full object-contain"
+                        className="relative z-[11] w-[100%] h-[100%] object-contain"
                     />
                     <div className="absolute w-full h-full z-0 bg-[#55e6a5] top-[-2rem] right-[-2rem]"></div>
                 </div>
             </div>
         </div>
     );
-}
+};
