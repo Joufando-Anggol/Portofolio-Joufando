@@ -7,13 +7,13 @@ interface Props {
     scrollToRef: (ref: RefObject<HTMLDivElement>) => void;
     heroRef: RefObject<HTMLDivElement>;
     aboutRef: RefObject<HTMLDivElement>;
-    servicesRef: RefObject<HTMLDivElement>;
+    skillsRef: RefObject<HTMLDivElement>;
     projectRef: RefObject<HTMLDivElement>;
     projectDetailsRef: RefObject<HTMLDivElement>;
     footerRef: RefObject<HTMLDivElement>;
 }
 
-export default function MobileNav({ nav, closeNav, scrollToRef, heroRef, aboutRef, servicesRef, projectRef, projectDetailsRef, footerRef }: Props) {
+export default function MobileNav({ nav, closeNav, scrollToRef, heroRef, aboutRef, skillsRef, projectRef, projectDetailsRef, footerRef }: Props) {
     const navAnimation = nav ? "translate-x-0" : "translate-x-[-100%]";
 
     return (
@@ -24,7 +24,7 @@ export default function MobileNav({ nav, closeNav, scrollToRef, heroRef, aboutRe
             <div className="w-[-100vw] h-[100vh] flex flex-col items-center justify-center">
                 <div onClick={() => scrollToRef(heroRef)} className="nav-link-mobile">HOME</div>
                 <div onClick={() => scrollToRef(aboutRef)} className="nav-link-mobile">ABOUT</div>
-                <div onClick={() => scrollToRef(servicesRef)} className="nav-link-mobile">SKILLS</div>
+                <div onClick={() => scrollToRef(skillsRef)} className="nav-link-mobile">SKILLS</div>
                 <div onClick={() => scrollToRef(projectRef)} className="nav-link-mobile">PROJECT</div>
                 <div onClick={() => scrollToRef(footerRef)} className="nav-link-mobile">CONTACT</div>
             </div>
