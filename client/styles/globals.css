@@ -17,9 +17,12 @@
     @apply text-center text-white text-[28px] sm:text-[33px] md:text-[45px] font-bold uppercase;
   }
 
-  /* Di dalam file CSS global Anda */
   body {
     @apply bg-cover bg-center; /* Menggunakan Tailwind CSS utilities untuk ukuran dan posisi gambar */
     background-image: url("/images/banner1.jpg"); /* Path ke gambar background */
+  }
+
+  .icon-style {
+    @apply w-[6rem] h-[6rem] mx-auto text-[#d3fae8] mt-2 mb-2 transition-transform transform hover:scale-110 hover:text-cyan-500;
   }
 }

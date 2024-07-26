@@ -14,7 +14,7 @@ export default function About() {
                         About <span className="text-cyan-500">Me</span>
                     </h2>
                     <p className="text-base md:text-lg text-[#ffffff92] mb-6">
-                        For more details about my qualifications and experience, please refer to my CV, Transcript or Certificate by clicking the button below.
+                        For more details about my qualifications and experienced, please refer to my CV, Transcript or Certificate by clicking the button below.
                     </p>
                     <div className="flex flex-col space-y-4">
                         <a

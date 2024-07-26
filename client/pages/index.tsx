@@ -25,7 +25,7 @@ export default function Home() {
 
   const scrollToRef = (ref: React.RefObject<HTMLDivElement>) => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
-    closeNav(); // Close mobile navigation after scrolling
+    closeNav();
   };
 
   useEffect(() => {
