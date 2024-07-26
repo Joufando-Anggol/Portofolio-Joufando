@@ -6,7 +6,7 @@ export default function About() {
     const certificateURL = "https://drive.google.com/file/d/1xspvEnu-GCKXVUcUxLFQKm5v4sA3SGKX/view?usp=sharing";
 
     return (
-        <div className="bg-[#121121] pb-12 pt-16 md:pt-32">
+        <div>
             <div className="grid grid-cols-1 md:grid-cols-2 w-11/12 lg:w-4/5 mx-auto gap-12 items-center">
                 <div>
                     <h1 className="text-xl font-bold uppercase text-[#55e6a5] mb-4">

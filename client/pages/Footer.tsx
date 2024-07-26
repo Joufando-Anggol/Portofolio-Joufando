@@ -7,7 +7,7 @@ import XIcon from "../icons/Twitter";
 
 export default function Footer() {
     return (
-        <div className="pt-16 pb-8 bg-gray-900 text-white">
+        <div className="pt-5 pb-5 bg-gray-900 text-white">
             <div className="border-b border-gray-700 pb-8 w-4/5 mx-auto">
                 <div className="flex justify-center space-x-6 mb-4">
                     <a

@@ -7,7 +7,7 @@ const mEventDemoLink = "https://drive.google.com/file/d/1sklOg4nM-M0fry8p1PtkiZ_
 
 export default function Project() {
     return (
-        <div className='bg-[#02050a] pt-16 md:pt-32 pb-12'>
+        <div >
             <h1 className='text-center text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-8'>
                 PRO<span className='text-cyan-500'>JECTS</span>
             </h1>

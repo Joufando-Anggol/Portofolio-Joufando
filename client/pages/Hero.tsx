@@ -9,7 +9,7 @@ export default function Hero() {
     const cvDownloadLink = "https://drive.google.com/uc?export=download&id=1IpUtnQRIhtntPYU_uyZGgEadU0Glu9Up";
 
     return (
-        <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center pt-[7rem] pb-[3rem] md:pb-[7rem]">
+        <div className="pt-[10rem] pb-[3rem] md:pb-[10rem]">
             <Particle />
             <div className="w-[80%] mx-auto grid lg:grid-cols-2 gap-[3rem] h-full items-center">
                 <div>
@@ -34,7 +34,7 @@ export default function Hero() {
                 </div>
                 <div
                     data-aos="zoom-in"
-                    className="w-[400px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[400px]">
+                    className="w-[300px] hidden relative lg:flex items-center  h-[400px]">
                     <Image
                         src="/images/joufando.jpg"
                         alt="user"
