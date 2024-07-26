@@ -4,7 +4,7 @@ export default function Services() {
     return (
         <div className="bg-[#121212] pt-[4rem] md:pt-[8rem] pb-[5rem]">
             <p className="heading">
-                My <span className="text-cyan-500">Services</span>
+                My <span className="text-cyan-500">Skills</span>
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-stretch gap-[3rem] mt-[4rem] text-white">
                 <div data-aos="fade-right" className="flex flex-col bg-sky-400 transform transition-transform duration-300 hover:scale-105 hover:rotate-6 uppercase font-semibold text-center p-[2rem]">

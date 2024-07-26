@@ -24,7 +24,7 @@ export default function Nav({ openNav, scrollToRef, heroRef, aboutRef, servicesR
                 <div className="hidden md:flex space-x-4">
                     <div className="nav-link" onClick={() => scrollToRef(heroRef)}>HOME</div>
                     <div className="nav-link" onClick={() => scrollToRef(aboutRef)}>ABOUT</div>
-                    <div className="nav-link" onClick={() => scrollToRef(servicesRef)}>SERVICES</div>
+                    <div className="nav-link" onClick={() => scrollToRef(servicesRef)}>SKILLS</div>
                     <div className="nav-link" onClick={() => scrollToRef(projectRef)}>PROJECT</div>
                     <div className="nav-link" onClick={() => scrollToRef(footerRef)}>CONTACT</div>
                 </div>

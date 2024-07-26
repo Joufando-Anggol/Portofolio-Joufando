@@ -24,7 +24,7 @@ export default function MobileNav({ nav, closeNav, scrollToRef, heroRef, aboutRe
             <div className="w-[-100vw] h-[100vh] flex flex-col items-center justify-center">
                 <div onClick={() => scrollToRef(heroRef)} className="nav-link-mobile">HOME</div>
                 <div onClick={() => scrollToRef(aboutRef)} className="nav-link-mobile">ABOUT</div>
-                <div onClick={() => scrollToRef(servicesRef)} className="nav-link-mobile">SERVICES</div>
+                <div onClick={() => scrollToRef(servicesRef)} className="nav-link-mobile">SKILLS</div>
                 <div onClick={() => scrollToRef(projectRef)} className="nav-link-mobile">PROJECT</div>
                 <div onClick={() => scrollToRef(footerRef)} className="nav-link-mobile">CONTACT</div>
             </div>

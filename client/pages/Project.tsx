@@ -9,7 +9,7 @@ export default function Project() {
     return (
         <div className='bg-[#02050a] pt-16 md:pt-32 pb-12'>
             <h1 className='text-center text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-8'>
-                Pro<span className='text-cyan-500'>jects</span>
+                PRO<span className='text-cyan-500'>JECTS</span>
             </h1>
             <div className='w-full px-4 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8'>
                 <div data-aos="fade-up" className='relative group'>
