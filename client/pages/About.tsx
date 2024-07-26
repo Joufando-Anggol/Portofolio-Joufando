@@ -47,7 +47,7 @@ export default function About() {
                 {/* Image Section */}
                 <div data-aos="fade-left" className="relative lg:w-[300px] mx-auto md:mx-0 mt-8 lg:mt-0 lg:h-[300px] w-[250px] h-[250px]">
                     <Image
-                        src="/images/aboutme.jpg"
+                        src="../public/images/aboutme.jpg"
                         alt="user"
                         layout="fill"
                         objectFit="contain"
