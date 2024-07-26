@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="pt-[10rem] pb-[3rem] md:pb-[5rem]">
             <Particle />
             <div className="w-[80%] mx-auto grid lg:grid-cols-2 gap-[3rem] h-full items-center">
-                <div>
+                <div className="flex flex-col justify-center items-start">
                     <h1 className="text-[35px] md:text-[50px] text-white font-bold">
                         HELLO, I&apos;M <span className="text-cyan-500">JOUFANDO</span>
                     </h1>
@@ -22,7 +22,8 @@ export default function Hero() {
                 </div>
                 <div
                     data-aos="zoom-in"
-                    className="relative flex items-center justify-center w-[300px] h-[400px] md:w-[300px] md:h-[400px] lg:w-[300px] lg:h-[400px]">
+                    className="relative flex items-center justify-center w-[300px] h-[400px] md:w-[250px] md:h-[350px] lg:w-[300px] lg:h-[400px] mx-auto"
+                >
                     <Image
                         src="/images/joufando.jpg"
                         alt="user"

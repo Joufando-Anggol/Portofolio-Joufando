@@ -12,7 +12,7 @@ interface Props {
     footerRef: RefObject<HTMLDivElement>;
 }
 
-export default function Nav({ openNav, scrollToRef, heroRef, aboutRef, skillsRef, projectRef, projectDetailsRef, footerRef }: Props) {
+export default function Nav({ openNav, scrollToRef, heroRef, aboutRef, skillsRef, projectRef, footerRef }: Props) {
     return (
         <div className="w-full fixed z-50 top-0 h-[12vh] bg-[#141c27] shadow-md">
             <div className="flex items-center justify-between w-[80%] mx-auto h-full">
