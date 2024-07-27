@@ -1,8 +1,50 @@
+/* @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* @layer components {
+  .nav-link {
+    @apply relative font-semibold text-white cursor-pointer text-[17px] w-fit md:block after:block after:content-[''] after:absolute after:h-[3px] after:bg-cyan-500 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center hidden;
+  } */
+
+/* .nav-link-mobile {
+    @apply relative mb-[2rem] font-semibold text-white cursor-pointer text-[27px] w-fit md:block after:block after:content-[''] after:absolute after:h-[3px] after:bg-cyan-500 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center;
+  } */
+
+/* .heading {
+    @apply text-center text-white text-[28px] sm:text-[33px] md:text-[45px] font-bold uppercase;
+  } */
+
+/* body {
+    @apply bg-cover bg-center; /* Menggunakan Tailwind CSS utilities untuk ukuran dan posisi gambar */
+/* background-image: url("https://images.pexels.com/photos/3214110/pexels-photo-3214110.jpeg?auto=compress&cs=tinysrgb&w=800"); /* URL gambar eksternal */
+/* }  
+
+  /* .icon-style {
+    @apply w-[6rem] h-[6rem] mx-auto text-[#d3fae8] mt-2 mb-2 transition-transform transform hover:scale-110 hover:text-cyan-500;
+  } */
+
+/* .nav-link-mobile {
+    @apply text-white text-xl  cursor-pointer transition-transform transform hover:scale-110 hover:text-cyan-500;
+  }
+} */
+
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-no-repeat bg-center bg-fixed; /* Menggunakan Tailwind CSS utilities untuk ukuran dan posisi gambar */
+    background-image: url("https://images.pexels.com/photos/3214110/pexels-photo-3214110.jpeg?auto=compress&cs=tinysrgb&w=800"); /* URL gambar eksternal */
+    background-size: cover; /* Menutupi seluruh area dengan gambar */
+    background-position: top center; /* Posisi gambar di atas dan tengah */
+  }
+}
 
 @layer components {
   .nav-link {
@@ -17,16 +59,11 @@
     @apply text-center text-white text-[28px] sm:text-[33px] md:text-[45px] font-bold uppercase;
   }
 
-  body {
-    @apply bg-cover bg-center; /* Menggunakan Tailwind CSS utilities untuk ukuran dan posisi gambar */
-    background-image: url("https://images.pexels.com/photos/3214110/pexels-photo-3214110.jpeg?auto=compress&cs=tinysrgb&w=800"); /* URL gambar eksternal */
-  }
-
   .icon-style {
     @apply w-[6rem] h-[6rem] mx-auto text-[#d3fae8] mt-2 mb-2 transition-transform transform hover:scale-110 hover:text-cyan-500;
   }
 
   .nav-link-mobile {
-    @apply text-white text-xl  cursor-pointer transition-transform transform hover:scale-110 hover:text-cyan-500;
+    @apply text-white text-xl cursor-pointer transition-transform transform hover:scale-110 hover:text-cyan-500;
   }
 }
