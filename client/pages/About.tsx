@@ -11,7 +11,7 @@ export default function About() {
             <div className="grid grid-cols-1 md:grid-cols-2 w-11/12 lg:w-4/5 mx-auto gap-12 items-center">
                 {/* Text Section */}
                 <div className="flex flex-col justify-center items-center text-center md:text-left">
-                    <h2 className="heading text-2xl md:text-4xl lg:text-5xl leading-snug md:leading-normal font-bold text-white mb-12">
+                    <h2 className="heading text-2xl md:text-4xl lg:text-5xl leading-snug md:leading-normal font-bold text-white mb-2">
                         ABOUT <span className="text-cyan-500">ME</span>
                     </h2>
                     <p className="text-base md:text-lg text-[#ffffff92] mb-6">

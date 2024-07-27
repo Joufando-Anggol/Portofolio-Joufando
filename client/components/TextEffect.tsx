@@ -3,6 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 export default function TextEffect() {
     return (
         <TypeAnimation
+
             sequence={[
                 'Frontend Developer',
                 1500,
@@ -12,7 +13,7 @@ export default function TextEffect() {
                 1500,
             ]}
             speed={50}
-            className="text-[2rem] md:text-[3rem] text-[#55e6a5] font-bold uppercase"
+            className="sm:text-sm md:text-[2rem] text-[#55e6a5] font-bold uppercase"
             repeat={Infinity}
         />
     )

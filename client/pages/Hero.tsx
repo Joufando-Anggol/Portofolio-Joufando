@@ -7,7 +7,9 @@ export default function Hero() {
     const cvDownloadLink = "https://drive.google.com/uc?export=download&id=1IpUtnQRIhtntPYU_uyZGgEadU0Glu9Up";
 
     return (
-        <div className="pt-[10rem] pb-[3rem] md:pb-[5rem]">
+        <div className="relative 
+        pt-[7.5rem] sm:pt-[7rem] md:pt-[9rem] lg:pt-[11rem] xl:pt-[8rem]
+        text-[1.5rem] sm:text-[1.5rem] md:text-[2rem] lg:text-[1.5rem] xl:text-[1.75rem]">
             <Particle />
             <div className="w-[80%] mx-auto grid lg:grid-cols-2 gap-[3rem] h-full items-center">
                 <div className="flex flex-col justify-center items-start">
